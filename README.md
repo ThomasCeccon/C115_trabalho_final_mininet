@@ -43,7 +43,7 @@
 
 - Ping específico entre os hosts h1 e h8
 ```sh
-    h1 ping -c 6 h8
+    h1 ping -c 5 h8
 ```
 
 - Comando iperf
