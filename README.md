@@ -85,8 +85,10 @@
     sudo mn --topo linear,8 --mac --link tc,bw=1,10,15,20,25
     h1 iperf -s -p 5555 -i 1
     h2 iperf -c 10.0.0.1 -p 5555 -i 1 -t 15
-```
+  ```
 
 ## 2. A) Topologia Personalizada (Código Python)
+- `topologia.py`
+- Desenho topologia customizada
 
 
